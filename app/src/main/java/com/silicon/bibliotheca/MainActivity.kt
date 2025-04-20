@@ -41,5 +41,9 @@ fun MainApp() {
         composable("signup") { SignupScreen(navController) }
         composable("forgot_password") { ForgotPasswordScreen(navController) }
         composable("home") { HomeScreen(navController) }
+        composable("book_issue") { BookIssue(navController) }
+        composable("room_booking") { DiscussionRoom(navController) }
+        composable("notify") { Notify(navController) }
     }
 }
+
